@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  background-color: rgba(255, 26, 104, 1);
+  text-align: center;
+  height: 100vh;
+}
+.chartMenu {
+  width: 100vw;
+  height: 40px;
+  background: #1a1a1a;
+  color: rgba(255, 26, 104, 1);
+}
+.chartMenu p {
+  padding: 10px;
+  font-size: 20px;
+}
+.chartCard {
+  width: 100vw;
+  height: calc(100vh - 40px);
+  background: rgba(255, 26, 104, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.chartBox {
+  width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 3px rgba(255, 26, 104, 1);
+  background: white;
+}
+
+/* .btn {
+  background-color: rgba(255, 26, 104, 0.2);
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 5rem;
+  font-size: 1.1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.5s;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-10px);
+} */
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #005c97 0%,
+    #363795 51%,
+    #005c97 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px rgba(238, 238, 238, 0.249);
+  border-radius: 10px;
+  display: block;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
